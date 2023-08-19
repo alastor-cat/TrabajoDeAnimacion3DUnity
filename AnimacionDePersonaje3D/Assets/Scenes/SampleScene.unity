@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571385, b: 0.30692253, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -209,8 +209,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.025223395, y: 0.95952237, z: -0.09124554, w: -0.2652448}
+  m_LocalPosition: {x: 4.683633, y: 1.5500247, z: 3.7809548}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -484,19 +484,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2.03
+  m_Height: 2.04
   m_Radius: 0.14
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1.01, z: 0}
---- !u!4 &464600333 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b3fb7dce79803a049826f8a9cd16fe99,
-    type: 3}
-  m_PrefabInstance: {fileID: 464600330}
-  m_PrefabAsset: {fileID: 0}
+  m_Center: {x: 0, y: 1.05, z: 0}
 --- !u!114 &464600334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,9 +503,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e7d3815c3cf7024c94252283a7cd5a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  gravity: 0
-  camera: {fileID: 464600333}
+  speed: 3
+  gravity: -9.8
+  camera: {fileID: 330585546}
 --- !u!1 &558403855
 GameObject:
   m_ObjectHideFlags: 0
